@@ -62,6 +62,18 @@ body {
   min-height: 300px;
 }
 
+.look-for-designer-box .look-for-designer-image {
+  float: left;
+  max-width: 49%;
+  height: auto;
+  margin-right: 1%;
+}
+
+.look-for-designer-box .look-for-designer-text {
+  float: right;
+  width: 50%;
+}
+
 /* main content */
 .information-section, .footer-information {
   width: 100%;
