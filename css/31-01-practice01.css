@@ -1,0 +1,69 @@
+body {
+  background-color: #342713;
+  line-height: 1.5;
+}
+
+/* container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+.header-information, .main-content {
+  width: 100%;
+  padding: 0 10%;
+  border-bottom: 2px solid #594522;
+}
+
+.logo-information {
+  height: 90px;
+}
+
+.logo .logo-link {
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #cdcab0;
+}
+
+.slogan {
+  font-family: 'Aref Ruqaa', sans-serif;
+  color: #af9671;
+}
+
+.navigation-content {
+  height: 90px;
+}
+
+.navigation-content .menu {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-content .menu .menu-item {
+  float: left;
+}
+
+.navigation-content .menu .menu-item .menu-item-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 12px;
+  color: #af9671;
+}
+
+.navigation-content .menu .menu-item .menu-item-link:hover {
+  color: #cdcab0;
+  font-size: 17px;
+}
+
+.header-information .about-me,
+.header-information .look-for-designer {
+  min-height: 300px;
+}
+
+/* main content */
+.information-section, .footer-information {
+  width: 100%;
+  padding: 0 10%;
+}
