@@ -10,18 +10,22 @@ body {
 }
 
 /* header */
-.header-information, .main-content {
+.header-information {
   width: 100%;
-  padding: 0 10%;
+  padding: 0 10% 12px;
   border-bottom: 2px solid #594522;
 }
 
 .logo-information {
   height: 90px;
+  width: 50%;
+  float: left;
+  padding: 15px;
 }
 
 .logo .logo-link {
   font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
   letter-spacing: 2px;
   text-decoration: none;
   color: #cdcab0;
@@ -34,6 +38,9 @@ body {
 
 .navigation-content {
   height: 90px;
+  width: 50%;
+  float: right;
+  padding: 15px;
 }
 
 .navigation-content .menu {
@@ -53,8 +60,7 @@ body {
 }
 
 .navigation-content .menu .menu-item .menu-item-link:hover {
-  color: #cdcab0;
-  font-size: 17px;
+  color: #d7d01d;
 }
 
 .header-information .about-me,
@@ -62,20 +68,63 @@ body {
   min-height: 300px;
 }
 
-.look-for-designer-box .look-for-designer-image {
-  float: left;
-  max-width: 49%;
-  height: auto;
-  margin-right: 1%;
-}
-
-.look-for-designer-box .look-for-designer-text {
-  float: right;
-  width: 50%;
-}
-
 /* main content */
-.information-section, .footer-information {
+.main-content {
+  background-color: #201b0e;
   width: 100%;
-  padding: 0 10%;
+  padding: 30px 10% 12px;
+  border-bottom: 2px solid #594522;
+}
+
+.main-content .heading-2 {
+  padding: 0 15px;
+}
+
+.products-list {
+  width: 100%;
+}
+
+.products-list .image {
+  height: 200px;
+}
+
+.products-list .item-content {
+  padding-top: 10px;
+}
+
+.products-list .item-content .description {
+  margin-bottom: 0;
+}
+
+/* information section */
+.information-section {
+  width: 100%;
+  padding: 30px 10%;
+  border-bottom: 2px solid #594522;
+}
+
+.information-section .information-box:nth-child(2n+1) {
+  clear: none;
+}
+
+.information-section .title-link {
+  color: #ea9f3e;
+  display: inline-block;
+}
+
+.information-section .title-link:hover {
+  color: #d7d01d;
+}
+
+/* footer */
+.footer-information {
+  width: 100%;
+  padding: 40px 10%;
+  background-color: #201b0e;
+}
+
+
+.footer-information .copyright {
+  color: #cfcdb4;
+  padding: 0 15px;
 }

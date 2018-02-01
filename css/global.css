@@ -16,23 +16,10 @@
   display: block;
 }
 
-/* col in desktop */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 [class*="col-"] {
   float: left;
   padding: 15px;
+  width: 100%;
 }
 
 .heading-2 {
@@ -40,9 +27,128 @@
   color: #ea9f3e;
   text-transform: uppercase;
   margin-bottom: 15px;
+  font-size: 17px;
 }
 
 .description {
   color: #cdcab0;
   margin-bottom: 15px;
+}
+
+.information-email {
+  color: #ea9f3e;
+  text-decoration: none;
+}
+
+.information-email:hover {
+  text-decoration: underline;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list .list-item .item-container {
+  width: 100%;
+}
+
+.list .list-item .item-container .item-image-box {
+  padding: 5px;
+  border: 2px solid #3c3218;
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+  width: 100%;
+  height: 250px;
+}
+
+.list .list-item .item-container .item-image-content {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.list .list-item .item-container .item-image {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.list .list-item .item-container .item-image-box:hover {
+  border: 2px solid #856f3a;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #af9671;
+}
+
+.title-link:hover {
+  color: #d7d01d;
+}
+
+.social-network-list .social-network-item .social-network-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #af9671;
+  padding: 10px 0;
+}
+
+.social-network-list .social-network-item .social-network-link:hover {
+  color: #d7d01d;
+}
+
+.internal-link {
+  width: 100px;
+  clear: left;
+  padding: 0 15px;
+}
+
+.return-to-top {
+  display: block;
+  text-decoration: none;
+  color: #ea9f3e;
+  width: 200px;
+  -webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
+  transition: color 1s;
+}
+
+.return-to-top:hover {
+  color: #d7d01d;
+}
+
+[class*="icon-"]::before {
+  display: inline-block;
+}
+
+.icon-left {
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.icon-services::before {
+  content: url("../icons/icon-painter.png");
+}
+
+.icon-tweets::before {
+  content: url("../icons/icon-tweets.png");
+}
+
+.icon-contact::before {
+  content: url("../icons/email.png");
+}
+
+.icon-delicious::before {
+  content: url("../icons/icon-delicious.png");
+}
+
+.icon-flickr::before {
+  content: url("../icons/icon-flickr.png");
 }
