@@ -6,20 +6,14 @@
     <link href='https://fonts.googleapis.com/css?family=Aref Ruqaa' rel='stylesheet'>
     <link rel="stylesheet" href="./css/resset.css">
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/31-01-practice01.css" />
-    <script></script>
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./js/global.js"></script>
   </head>
 <body>
   <div class="containers">
     <header class="header-information row" id="top">
-      <div class="logo-information">
-        <h1 class="logo">
-          <a href="#" class="logo-link">STEVEN SNELL</a>
-        </h1>
-        <p class="slogan">web &amp; graphic design portfolio</p>
-      </div>
-      <nav class="navigation-content">
+      <nav class="navigation-content" id="navigation-top">
         <ul class="menu clearfix">
           <li class="menu-item">
             <a href="#work" class="menu-item-link">work</a>
@@ -31,7 +25,17 @@
             <a href="#contact" class="menu-item-link">contact</a>
           </li>
         </ul>
+        <div class="btn-menu-group">
+          <span class="icon-menu" onclick="toggleMenu()"></span>
+          <span class="icon-close" onclick="toggleMenu()"></span>
+        </div>
       </nav>
+      <div class="logo-information">
+        <h1 class="logo">
+          <a href="#" class="logo-link">STEVEN SNELL</a>
+        </h1>
+        <p class="slogan">web &amp; graphic design portfolio</p>
+      </div>
       <section class="about-me col-6">
         <h2 class="heading-2">About me</h2>
         <div class="introduction-box-content">
