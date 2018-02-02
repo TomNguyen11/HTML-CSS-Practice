@@ -22,6 +22,65 @@
   width: 100%;
 }
 
+.logo-information {
+  min-height: 90px;
+  width: 50%;
+  float: left;
+  padding: 15px;
+}
+
+.logo .logo-link {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #cdcab0;
+}
+
+.slogan {
+  font-family: 'Aref Ruqaa', sans-serif;
+  color: #af9671;
+}
+
+.btn-menu-group {
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding-left: 4px;
+  padding-top: 4px;
+  border-radius: 2px;
+}
+
+.btn-menu-group .icon-close,
+.btn-menu-group .icon-menu {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-menu-group .icon-close {
+  display: none;
+}
+
+.btn-menu-group:hover {
+  background-color: #e7e5d4;
+}
+
+.menu {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu .menu-item .menu-item-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 12px;
+  color: #af9671;
+}
+
+.menu .menu-item .menu-item-link:hover {
+  color: #d7d01d;
+}
+
 .heading-2 {
   font-family: Arial, Helvetica, sans-serif;
   color: #ea9f3e;
@@ -123,6 +182,18 @@
   color: #d7d01d;
 }
 
+/* footer */
+.footer-information {
+  width: 100%;
+  padding: 40px 10%;
+  background-color: #201b0e;
+}
+
+.footer-information .copyright {
+  color: #cfcdb4;
+  padding: 0 15px;
+}
+
 [class*="icon-"]::before {
   display: inline-block;
 }
@@ -151,4 +222,12 @@
 
 .icon-flickr::before {
   content: url("../icons/icon-flickr.png");
+}
+
+.icon-menu::before {
+  content: url("../icons/icon-menu.png");
+}
+
+.icon-close::before {
+  content: url("../icons/icon-close.png");
 }
