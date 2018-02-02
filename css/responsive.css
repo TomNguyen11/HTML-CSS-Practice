@@ -31,6 +31,71 @@
   }
 }
 
+@media only screen and (max-width: 703px) {
+  .logo-information {
+    width: 85%;
+    max-width: calc(100% - 40px);
+  }
+
+  .navigation-content {
+    width: 15%;
+    min-width: 40px;
+    padding: 15px 0;
+  }
+
+  .navigation-content .menu {
+    display: none;
+  }
+
+  .navigation-content .btn-menu-group {
+    display: inline-block;
+  }
+
+  .navigation-content.responsive-menu {
+    position: relative;
+    height: auto;
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+  .navigation-content.responsive-menu .btn-menu-group {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+  }
+
+  .navigation-content.responsive-menu .btn-menu-group .icon-menu {
+    display: none;
+  }
+
+  .navigation-content.responsive-menu .btn-menu-group .icon-close {
+    display: inline-block;
+  }
+
+  .navigation-content.responsive-menu .menu {
+    display: block;
+  }
+
+  .navigation-content.responsive-menu .menu .menu-item {
+    width: 100%;
+    background-color: #d3bea1;
+  }
+
+  .navigation-content.responsive-menu .menu .menu-item .menu-item-link {
+    text-align: center;
+    display: block;
+    color: #211c0f;
+  }
+
+  .navigation-content.responsive-menu .menu .menu-item .menu-item-link:hover {
+    color: #ff9;
+    background-color: #af9670;
+    font-weight: bold;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}

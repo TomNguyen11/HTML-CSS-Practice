@@ -16,26 +16,6 @@ body {
   border-bottom: 2px solid #594522;
 }
 
-.logo-information {
-  height: 90px;
-  width: 50%;
-  float: left;
-  padding: 15px;
-}
-
-.logo .logo-link {
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 20px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  color: #cdcab0;
-}
-
-.slogan {
-  font-family: 'Aref Ruqaa', sans-serif;
-  color: #af9671;
-}
-
 .navigation-content {
   height: 90px;
   width: 50%;
@@ -43,24 +23,8 @@ body {
   padding: 15px;
 }
 
-.navigation-content .menu {
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .navigation-content .menu .menu-item {
   float: left;
-}
-
-.navigation-content .menu .menu-item .menu-item-link {
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 12px;
-  color: #af9671;
-}
-
-.navigation-content .menu .menu-item .menu-item-link:hover {
-  color: #d7d01d;
 }
 
 .header-information .about-me,
@@ -114,17 +78,4 @@ body {
 
 .information-section .title-link:hover {
   color: #d7d01d;
-}
-
-/* footer */
-.footer-information {
-  width: 100%;
-  padding: 40px 10%;
-  background-color: #201b0e;
-}
-
-
-.footer-information .copyright {
-  color: #cfcdb4;
-  padding: 0 15px;
 }
