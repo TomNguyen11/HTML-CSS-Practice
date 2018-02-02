@@ -32,17 +32,6 @@
 }
 
 @media only screen and (max-width: 703px) {
-  .logo-information {
-    width: 85%;
-    max-width: calc(100% - 40px);
-  }
-
-  .navigation-content {
-    width: 15%;
-    min-width: 40px;
-    padding: 15px 0;
-  }
-
   .navigation-content .menu {
     display: none;
   }
@@ -64,14 +53,6 @@
     position: absolute;
     top: 18px;
     right: 18px;
-  }
-
-  .navigation-content.responsive-menu .btn-menu-group .icon-menu {
-    display: none;
-  }
-
-  .navigation-content.responsive-menu .btn-menu-group .icon-close {
-    display: inline-block;
   }
 
   .navigation-content.responsive-menu .menu {
