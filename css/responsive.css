@@ -32,67 +32,55 @@
 }
 
 @media only screen and (max-width: 703px) {
-  .logo-information {
-    width: 85%;
-    max-width: calc(100% - 40px);
+  .header-information,
+  .main-content,
+  .information-section,
+  .footer-information {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .navigation-content {
-    width: 15%;
-    min-width: 40px;
-    padding: 15px 0;
+    width: 70px;
+    padding: 0;
   }
 
-  .navigation-content .menu {
-    display: none;
+  .logo-information {
+    width: calc(100% - 70px);
   }
 
   .navigation-content .btn-menu-group {
     display: inline-block;
   }
 
-  .navigation-content.responsive-menu {
-    position: relative;
-    height: auto;
-    width: 100%;
-    float: none;
-    margin-top: 10px;
-    padding: 15px;
-  }
-
-  .navigation-content.responsive-menu .btn-menu-group {
-    position: absolute;
-    top: 18px;
-    right: 18px;
-  }
-
-  .navigation-content.responsive-menu .btn-menu-group .icon-menu {
+  .navigation-content .menu {
     display: none;
   }
 
-  .navigation-content.responsive-menu .btn-menu-group .icon-close {
-    display: inline-block;
+  .navigation-content.responsive-menu {
+    padding: 0;
   }
 
-  .navigation-content.responsive-menu .menu {
-    display: block;
+  .navigation-content.responsive-menu .btn-menu-group .icon-line-1 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 14px;
+    margin: 0;
   }
 
-  .navigation-content.responsive-menu .menu .menu-item {
-    width: 100%;
-    background-color: #d3bea1;
+  .navigation-content.responsive-menu .btn-menu-group .icon-line-2 {
+    display: none;
   }
 
-  .navigation-content.responsive-menu .menu .menu-item .menu-item-link {
-    text-align: center;
-    display: block;
-    color: #211c0f;
+  .navigation-content.responsive-menu .btn-menu-group .icon-line-3 {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 14px;
+    margin: 0;
   }
 
-  .navigation-content.responsive-menu .menu .menu-item .menu-item-link:hover {
-    color: #ff9;
-    background-color: #af9670;
-    font-weight: bold;
+  .navigation-content.responsive-menu + .clapse-menu-box {
+    right: 0;
   }
 }
 
