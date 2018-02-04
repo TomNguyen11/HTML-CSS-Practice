@@ -79,7 +79,7 @@
     margin: 0;
   }
 
-  .navigation-content.responsive-menu + .clapse-menu-box {
+  .navigation-content.responsive-menu + .cllapse-menu-box {
     right: 0;
   }
 }
