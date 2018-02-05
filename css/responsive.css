@@ -62,7 +62,6 @@
   }
 
   .navigation-content.responsive-menu .btn-menu-group .icon-line-1 {
-    background-color: #e3dc3a;
     transform: rotate(45deg);
     position: absolute;
     top: 14px;
@@ -74,14 +73,13 @@
   }
 
   .navigation-content.responsive-menu .btn-menu-group .icon-line-3 {
-    background-color: #e3dc3a;
     transform: rotate(-45deg);
     position: absolute;
     top: 14px;
     margin: 0;
   }
 
-  .navigation-content.responsive-menu + .cllapse-menu-box {
+  .navigation-content.responsive-menu + .collapse-menu-box {
     right: 0;
   }
 }
