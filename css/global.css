@@ -96,20 +96,20 @@
 
 .cllapse-menu-box .menu .menu-item {
   width: 100%;
-  background-color: #d3bea1;
+  background-color: rgba(211, 190, 161, 0.83);
 }
 
 .cllapse-menu-box .menu .menu-item .menu-item-link {
   text-align: center;
   display: block;
   color: #211c0f;
+  font-weight: bold;
   border: none;
 }
 
 .cllapse-menu-box .menu .menu-item .menu-item-link:hover {
   color: #ff9;
   background-color: #af9670;
-  font-weight: bold;
 }
 
 .heading-2 {
