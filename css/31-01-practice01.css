@@ -13,7 +13,7 @@ body {
 .header-information {
   width: 100%;
   padding: 0 10% 12px;
-  border-bottom: 2px solid #594522;
+  border-bottom: 1px solid #594522;
   background-image: url("../images/background-header.png");
   background-size: contain;
   background-position: center;
@@ -43,7 +43,7 @@ body {
   background-color: #201b0e;
   width: 100%;
   padding: 30px 10% 12px;
-  border-bottom: 2px solid #594522;
+  border-bottom: 1px solid #594522;
 }
 
 .main-content .heading-2 {
@@ -70,7 +70,7 @@ body {
 .information-section {
   width: 100%;
   padding: 30px 10%;
-  border-bottom: 2px solid #594522;
+  border-bottom: 1px solid #594522;
 }
 
 .information-section .information-box:nth-child(2n+1) {
