@@ -81,7 +81,7 @@
   box-shadow: 0 0 3px 3px rgba(234, 234, 214, 0.29);
 }
 
-.cllapse-menu-box {
+.collapse-menu-box {
   width: 100%;
   height: auto;
   position: absolute;
@@ -90,16 +90,16 @@
   right: -100%;
 }
 
-.cllapse-menu-box .menu {
+.collapse-menu-box .menu {
   list-style-type: none;
 }
 
-.cllapse-menu-box .menu .menu-item {
+.collapse-menu-box .menu .menu-item {
   width: 100%;
-  background-color: rgba(211, 190, 161, 0.83);
+  background-color: rgba(204, 204, 204, 0.83);
 }
 
-.cllapse-menu-box .menu .menu-item .menu-item-link {
+.collapse-menu-box .menu .menu-item .menu-item-link {
   text-align: center;
   display: block;
   color: #211c0f;
@@ -107,7 +107,7 @@
   border: none;
 }
 
-.cllapse-menu-box .menu .menu-item .menu-item-link:hover {
+.collapse-menu-box .menu .menu-item .menu-item-link:hover {
   color: #ff9;
   background-color: #af9670;
 }
