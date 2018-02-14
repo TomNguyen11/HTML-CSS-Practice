@@ -85,6 +85,7 @@
 }
 
 .collapse-menu-box {
+  z-index: 1;
   width: 100%;
   height: auto;
   position: absolute;
@@ -120,6 +121,7 @@
   position: relative;
   border: 1px groove;
   padding: 0;
+  width: 100%;
 
   .slides-box {
     display: none;

@@ -10,46 +10,48 @@
 <body>
   <div class="containers">
     <header class="header-information row" id="top">
-      <nav class="navigation-content" id="navigation-top">
-        <ul class="menu clearfix">
-          <li class="menu-item">
-            <a href="#work" class="menu-item-link">work</a>
-          </li>
-          <li class="menu-item">
-            <a href="#service" class="menu-item-link">service</a>
-          </li>
-          <li class="menu-item">
-            <a href="#contact" class="menu-item-link">contact</a>
-          </li>
-        </ul>
-        <div class="btn-menu-group" onclick="toggleMenu()">
-          <span class="icon-line-1"></span>
-          <span class="icon-line-2"></span>
-          <span class="icon-line-3"></span>
+      <div class="header-row clearfix">
+        <nav class="navigation-content" id="navigation-top">
+          <ul class="menu clearfix">
+            <li class="menu-item">
+              <a href="#work" class="menu-item-link">work</a>
+            </li>
+            <li class="menu-item">
+              <a href="#service" class="menu-item-link">service</a>
+            </li>
+            <li class="menu-item">
+              <a href="#contact" class="menu-item-link">contact</a>
+            </li>
+          </ul>
+          <div class="btn-menu-group" onclick="toggleMenu()">
+            <span class="icon-line-1"></span>
+            <span class="icon-line-2"></span>
+            <span class="icon-line-3"></span>
+          </div>
+        </nav>
+        <div class="collapse-menu-box">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#work" class="menu-item-link">work</a>
+            </li>
+            <li class="menu-item">
+              <a href="#service" class="menu-item-link">service</a>
+            </li>
+            <li class="menu-item">
+              <a href="#contact" class="menu-item-link">contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <div class="collapse-menu-box">
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="#work" class="menu-item-link">work</a>
-          </li>
-          <li class="menu-item">
-            <a href="#service" class="menu-item-link">service</a>
-          </li>
-          <li class="menu-item">
-            <a href="#contact" class="menu-item-link">contact</a>
-          </li>
-        </ul>
+        <div class="logo-information">
+          <h1 class="logo">
+            <a href="#" class="logo-link">STEVEN SNELL</a>
+          </h1>
+          <p class="slogan">
+            <a href="#" class="title-link">web &amp; graphic design portfolio</a>
+          </p>
+        </div>
       </div>
-      <div class="logo-information">
-        <h1 class="logo">
-          <a href="#" class="logo-link">STEVEN SNELL</a>
-        </h1>
-        <p class="slogan">
-          <a href="#" class="title-link">web &amp; graphic design portfolio</a>
-        </p>
-      </div>
-      <div class="banner col-12">
+      <div class="banner">
         <div class="slides-box fade" style="background-image: url('./images/banner07.png');">
           <div class="slide-content">
             <h2 class="slide-heading">Title banner</h2>
@@ -125,55 +127,57 @@
           <span class="next-action" onclick="plusSlides(1)">&#10095;</span>
         </div>
       </div>
-      <section class="about-me col-6">
-        <h2 class="heading-2">About me</h2>
-        <div class="introduction-box-content">
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Fuga consequuntur corrupti, provident molestias minus soluta
-            eaque ex maxime aliquid eos corporis, laborum officiis non.
-            Quis dolor repudiandae deleniti voluptatum accusantium.
-          </p>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Fuga consequuntur corrupti, provident molestias minus soluta
-            eaque ex maxime aliquid eos corporis, laborum officiis non.
-            Quis dolor repudiandae deleniti voluptatum accusantium.
-          </p>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Fuga consequuntur corrupti, provident molestias minus soluta
-            eaque ex maxime aliquid eos corporis, laborum officiis non.
-          </p>
-        </div>
-      </section>
-      <section class="look-for-designer col-6">
-        <h2 class="heading-2">Looking for a designer?</h2>
-        <div class="introduction-box-content">
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Fuga consequuntur corrupti, provident molestias minus soluta
-            eaque ex maxime aliquid eos corporis, laborum officiis non.
-            Quis dolor repudiandae deleniti voluptatum accusantium.
-          </p>
-          <div class="look-for-designer-box clearfix">
-            <div class="look-for-designer-image">
-              <img src="./images/designer.jpg" alt="hire me" class="image"/>
-            </div>
-            <div class="look-for-designer-text">
-              <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Fuga consequuntur corrupti, provident molestias minus soluta
-                eaque ex maxime aliquid eos corporis, laborum officiis non.
-              </p>
-              <p class="description">
-                email:
-                <a href="mailto:mymail@mydomain.com" class="information-email">mymail@mydomain.com</a>
-              </p>
+      <div class="header-row row">
+        <section class="about-me col-6">
+          <h2 class="heading-2">About me</h2>
+          <div class="introduction-box-content">
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Fuga consequuntur corrupti, provident molestias minus soluta
+              eaque ex maxime aliquid eos corporis, laborum officiis non.
+              Quis dolor repudiandae deleniti voluptatum accusantium.
+            </p>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Fuga consequuntur corrupti, provident molestias minus soluta
+              eaque ex maxime aliquid eos corporis, laborum officiis non.
+              Quis dolor repudiandae deleniti voluptatum accusantium.
+            </p>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Fuga consequuntur corrupti, provident molestias minus soluta
+              eaque ex maxime aliquid eos corporis, laborum officiis non.
+            </p>
+          </div>
+        </section>
+        <section class="look-for-designer col-6">
+          <h2 class="heading-2">Looking for a designer?</h2>
+          <div class="introduction-box-content">
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Fuga consequuntur corrupti, provident molestias minus soluta
+              eaque ex maxime aliquid eos corporis, laborum officiis non.
+              Quis dolor repudiandae deleniti voluptatum accusantium.
+            </p>
+            <div class="look-for-designer-box clearfix">
+              <div class="look-for-designer-image">
+                <img src="./images/designer.jpg" alt="hire me" class="image"/>
+              </div>
+              <div class="look-for-designer-text">
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fuga consequuntur corrupti, provident molestias minus soluta
+                  eaque ex maxime aliquid eos corporis, laborum officiis non.
+                </p>
+                <p class="description">
+                  email:
+                  <a href="mailto:mymail@mydomain.com" class="information-email">mymail@mydomain.com</a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </header>
     <main class="main-content">
       <h2 class="heading-2">My work</h2>
