@@ -12,7 +12,7 @@ body {
 /* header */
 .header-information {
   width: 100%;
-  padding: 0 10% 12px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #594522;
   background-image: url("../images/background-header.png");
   background-size: cover;
@@ -23,6 +23,13 @@ body {
   -webkit-box-shadow: inset 0px -5px 3px #201b0e;
   -moz-box-shadow: inset 0px -5px 3px #201b0e;
   box-shadow: inset 0px -5px 3px #201b0e;
+
+  .header-row {
+    width: 100%;
+    min-height: 90px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 .navigation-content {
