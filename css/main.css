@@ -173,16 +173,18 @@ input, select {
       text-decoration: none;
       display: inline-block;
       padding: 8px 12px;
-      color: #af9671;
       border: 1px solid transparent;
       -webkit-transition: 0.5s;
       transition: 0.5s;
       box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0); }
-    /* line 91, ../scss/_global.scss */
-    .menu .menu-item .active {
-      color: #f1ea40; }
+      /* line 88, ../scss/_global.scss */
+      .menu .menu-item .menu-item-link:not(.active) {
+        color: #af9671; }
+      /* line 91, ../scss/_global.scss */
+      .menu .menu-item .menu-item-link.active {
+        color: #f1ea40; }
 
-/* line 97, ../scss/_global.scss */
+/* line 99, ../scss/_global.scss */
 .sub-menu {
   display: none;
   position: absolute;
@@ -194,30 +196,31 @@ input, select {
   background-color: #3c3218;
   -webkit-transition: display .5s;
   transition: display .5s; }
-  /* line 108, ../scss/_global.scss */
+  /* line 110, ../scss/_global.scss */
   .sub-menu .sub-menu-item {
     position: relative; }
-    /* line 111, ../scss/_global.scss */
+    /* line 113, ../scss/_global.scss */
     .sub-menu .sub-menu-item:hover > .sub-menu {
       display: inline-block; }
-    /* line 115, ../scss/_global.scss */
+    /* line 117, ../scss/_global.scss */
     .sub-menu .sub-menu-item .sub-menu-item-link {
+      text-align: center;
       padding: 10px 12px;
       text-decoration: none;
       color: #af9671;
       background-color: #3c3218;
       display: block; }
-    /* line 123, ../scss/_global.scss */
+    /* line 126, ../scss/_global.scss */
     .sub-menu .sub-menu-item:hover > .sub-menu-item-link {
       color: #ea9f3e;
       background-color: #483e23; }
-  /* line 129, ../scss/_global.scss */
+  /* line 132, ../scss/_global.scss */
   .sub-menu .sub-menu {
     position: absolute;
     left: 100%;
     top: 0; }
 
-/* line 136, ../scss/_global.scss */
+/* line 139, ../scss/_global.scss */
 .collapse-menu-box {
   z-index: 1;
   width: 100%;
@@ -226,26 +229,62 @@ input, select {
   -webkit-transition: right 0.5s;
   transition: right 0.5s;
   right: -100%; }
-  /* line 145, ../scss/_global.scss */
+  /* line 148, ../scss/_global.scss */
   .collapse-menu-box .menu {
     list-style-type: none; }
-    /* line 148, ../scss/_global.scss */
+    /* line 151, ../scss/_global.scss */
     .collapse-menu-box .menu .menu-item {
       width: 100%;
       background-color: rgba(240, 235, 235, 0.9); }
-      /* line 152, ../scss/_global.scss */
+      /* line 155, ../scss/_global.scss */
+      .collapse-menu-box .menu .menu-item:hover .menu-item-link:not(.active) {
+        color: #ff9;
+        background-color: #af9670;
+        border-color: transparent; }
+      /* line 160, ../scss/_global.scss */
+      .collapse-menu-box .menu .menu-item:hover > .sub-menu {
+        display: inline-block; }
+      /* line 165, ../scss/_global.scss */
       .collapse-menu-box .menu .menu-item .menu-item-link {
         text-align: center;
         display: block;
-        color: #211c0f;
-        font-weight: bold;
-        border: none; }
-        /* line 158, ../scss/_global.scss */
-        .collapse-menu-box .menu .menu-item .menu-item-link:hover {
-          color: #ff9;
-          background-color: #af9670; }
+        font-weight: bold; }
+        /* line 169, ../scss/_global.scss */
+        .collapse-menu-box .menu .menu-item .menu-item-link:not(.active) {
+          color: #211c0f; }
+        /* line 172, ../scss/_global.scss */
+        .collapse-menu-box .menu .menu-item .menu-item-link.active {
+          color: #c95c10; }
+    /* line 178, ../scss/_global.scss */
+    .collapse-menu-box .menu .sub-menu {
+      width: 100%; }
+      /* line 181, ../scss/_global.scss */
+      .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu-item-link {
+        padding-left: 40px;
+        background-color: #4f4326; }
+        /* line 184, ../scss/_global.scss */
+        .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu-item-link:hover {
+          background-color: #483e23; }
+      /* line 188, ../scss/_global.scss */
+      .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu {
+        top: 100%;
+        left: 0; }
+        /* line 192, ../scss/_global.scss */
+        .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu .sub-menu-item .sub-menu-item-link {
+          background-color: #3e2e07;
+          padding-left: 70px; }
+          /* line 195, ../scss/_global.scss */
+          .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu .sub-menu-item .sub-menu-item-link:hover {
+            background-color: #483e23; }
+        /* line 201, ../scss/_global.scss */
+        .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu .sub-menu-item .sub-menu .sub-menu-item .sub-menu-item-link {
+          background-color: black;
+          padding-left: 100px; }
+          /* line 204, ../scss/_global.scss */
+          .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu .sub-menu-item .sub-menu .sub-menu-item .sub-menu-item-link:hover {
+            background-color: #483e23; }
 
-/* line 167, ../scss/_global.scss */
+/* line 217, ../scss/_global.scss */
 .banner {
   background-color: rgba(61, 126, 211, 0.8);
   height: 400px;
@@ -253,7 +292,7 @@ input, select {
   border: 1px groove;
   padding: 0;
   width: 100%; }
-  /* line 175, ../scss/_global.scss */
+  /* line 225, ../scss/_global.scss */
   .banner .slides-box {
     display: none;
     background-position: center;
@@ -261,7 +300,7 @@ input, select {
     background-size: cover;
     width: 100%;
     height: 100%; }
-    /* line 183, ../scss/_global.scss */
+    /* line 233, ../scss/_global.scss */
     .banner .slides-box .slide-content {
       text-align: center;
       position: absolute;
@@ -269,24 +308,24 @@ input, select {
       width: 100%;
       left: 0;
       color: #fff; }
-      /* line 191, ../scss/_global.scss */
+      /* line 241, ../scss/_global.scss */
       .banner .slides-box .slide-content .slide-heading {
         font-family: 'Andika', Helvetica, sans-serif;
         font-size: 30px; }
-      /* line 196, ../scss/_global.scss */
+      /* line 246, ../scss/_global.scss */
       .banner .slides-box .slide-content .slide-text {
         font-family: 'Andika', Helvetica, sans-serif;
         width: 60%;
         min-width: 200px;
         margin: 0 auto;
         font-weight: 600; }
-      /* line 204, ../scss/_global.scss */
+      /* line 254, ../scss/_global.scss */
       .banner .slides-box .slide-content .slide-link-box {
         width: 106px;
         margin: 0 auto;
         height: auto;
         margin-top: 10px; }
-        /* line 210, ../scss/_global.scss */
+        /* line 260, ../scss/_global.scss */
         .banner .slides-box .slide-content .slide-link-box .slide-link {
           text-decoration: none;
           color: #c95c10;
@@ -297,10 +336,10 @@ input, select {
           -webkit-transition: .5s;
           transition: .5s;
           background-color: #fff; }
-          /* line 220, ../scss/_global.scss */
+          /* line 270, ../scss/_global.scss */
           .banner .slides-box .slide-content .slide-link-box .slide-link:hover {
             box-shadow: 2px 4px 4px #d3d9e9; }
-  /* line 229, ../scss/_global.scss */
+  /* line 279, ../scss/_global.scss */
   .banner .banner-move-box .prev-action,
   .banner .banner-move-box .next-action {
     position: absolute;
@@ -319,20 +358,20 @@ input, select {
     transition: .5s;
     background-color: #000;
     opacity: .4; }
-    /* line 247, ../scss/_global.scss */
+    /* line 297, ../scss/_global.scss */
     .banner .banner-move-box .prev-action:hover,
     .banner .banner-move-box .next-action:hover {
       opacity: 1; }
-  /* line 252, ../scss/_global.scss */
+  /* line 302, ../scss/_global.scss */
   .banner .banner-move-box .prev-action {
     left: 0;
     border-radius: 0 4px 4px 0; }
-  /* line 257, ../scss/_global.scss */
+  /* line 307, ../scss/_global.scss */
   .banner .banner-move-box .next-action {
     right: 0;
     border-radius: 4px 0 0 4px; }
 
-/* line 264, ../scss/_global.scss */
+/* line 314, ../scss/_global.scss */
 .heading-2 {
   font-family: Arial, Helvetica, sans-serif;
   color: #ea9f3e;
@@ -340,31 +379,31 @@ input, select {
   margin-bottom: 15px;
   font-size: 17px; }
 
-/* line 272, ../scss/_global.scss */
+/* line 322, ../scss/_global.scss */
 .description {
   color: #cdcab0;
   margin-bottom: 15px; }
 
-/* line 277, ../scss/_global.scss */
+/* line 327, ../scss/_global.scss */
 .information-email {
   color: #ea9f3e;
   text-decoration: none; }
-  /* line 280, ../scss/_global.scss */
+  /* line 330, ../scss/_global.scss */
   .information-email:hover {
     text-decoration: underline; }
 
-/* line 285, ../scss/_global.scss */
+/* line 335, ../scss/_global.scss */
 .image {
   width: 100%;
   height: auto; }
 
-/* line 290, ../scss/_global.scss */
+/* line 340, ../scss/_global.scss */
 .list {
   list-style-type: none; }
-  /* line 294, ../scss/_global.scss */
+  /* line 344, ../scss/_global.scss */
   .list .list-item .item-container {
     width: 100%; }
-    /* line 297, ../scss/_global.scss */
+    /* line 347, ../scss/_global.scss */
     .list .list-item .item-container .item-image-box {
       padding: 5px;
       border: 2px solid #3c3218;
@@ -372,47 +411,47 @@ input, select {
       transition: border 0.5s;
       width: 100%;
       height: 250px; }
-      /* line 304, ../scss/_global.scss */
+      /* line 354, ../scss/_global.scss */
       .list .list-item .item-container .item-image-box:hover {
         border: 2px solid #856f3a; }
-    /* line 309, ../scss/_global.scss */
+    /* line 359, ../scss/_global.scss */
     .list .list-item .item-container .item-image-content {
       background-size: cover;
       background-position: center;
       width: 100%;
       height: 100%; }
-    /* line 316, ../scss/_global.scss */
+    /* line 366, ../scss/_global.scss */
     .list .list-item .item-container .item-image {
       text-decoration: none;
       display: block;
       width: 100%;
       height: 100%; }
 
-/* line 326, ../scss/_global.scss */
+/* line 376, ../scss/_global.scss */
 .title-link {
   text-decoration: none;
   color: #af9671; }
-  /* line 329, ../scss/_global.scss */
+  /* line 379, ../scss/_global.scss */
   .title-link:hover {
     color: #f1ea40; }
 
-/* line 336, ../scss/_global.scss */
+/* line 386, ../scss/_global.scss */
 .social-network-list .social-network-item .social-network-link {
   display: inline-block;
   text-decoration: none;
   color: #af9671;
   padding: 10px 0; }
-  /* line 341, ../scss/_global.scss */
+  /* line 391, ../scss/_global.scss */
   .social-network-list .social-network-item .social-network-link:hover {
     color: #f1ea40; }
 
-/* line 348, ../scss/_global.scss */
+/* line 398, ../scss/_global.scss */
 .internal-link {
   width: 100px;
   clear: left;
   padding: 0 15px; }
 
-/* line 354, ../scss/_global.scss */
+/* line 404, ../scss/_global.scss */
 .return-to-top {
   display: block;
   text-decoration: none;
@@ -421,63 +460,63 @@ input, select {
   -webkit-transition: color 1s;
   /* For Safari 3.1 to 6.0 */
   transition: color 1s; }
-  /* line 361, ../scss/_global.scss */
+  /* line 411, ../scss/_global.scss */
   .return-to-top:hover {
     color: #f1ea40; }
 
 /* footer */
-/* line 367, ../scss/_global.scss */
+/* line 417, ../scss/_global.scss */
 .footer-information {
   width: 100%;
   padding: 40px 10%;
   background-color: #201b0e; }
-  /* line 371, ../scss/_global.scss */
+  /* line 421, ../scss/_global.scss */
   .footer-information .copyright {
     color: #cfcdb4;
     padding: 0 15px; }
 
-/* line 377, ../scss/_global.scss */
+/* line 427, ../scss/_global.scss */
 [class*="icon-"] {
   display: inline-block;
   background-position: center;
   width: 32px;
   height: 32px; }
 
-/* line 384, ../scss/_global.scss */
+/* line 434, ../scss/_global.scss */
 .icon-left {
   margin-right: 10px;
   vertical-align: middle;
   display: inline-block; }
 
-/* line 390, ../scss/_global.scss */
+/* line 440, ../scss/_global.scss */
 .icon-services {
   background-image: url("../icons/icon-painter.png"); }
 
-/* line 394, ../scss/_global.scss */
+/* line 444, ../scss/_global.scss */
 .icon-tweets {
   background-image: url("../icons/icon-tweets.png"); }
 
-/* line 398, ../scss/_global.scss */
+/* line 448, ../scss/_global.scss */
 .icon-contact {
   background-image: url("../icons/email.png"); }
 
-/* line 402, ../scss/_global.scss */
+/* line 452, ../scss/_global.scss */
 .icon-delicious {
   background-image: url("../icons/icon-delicious.png"); }
 
-/* line 406, ../scss/_global.scss */
+/* line 456, ../scss/_global.scss */
 .icon-flickr {
   background-image: url("../icons/icon-flickr.png"); }
 
-/* line 410, ../scss/_global.scss */
+/* line 460, ../scss/_global.scss */
 .icon-menu {
   background-image: url("../icons/icon-menu.png"); }
 
-/* line 414, ../scss/_global.scss */
+/* line 464, ../scss/_global.scss */
 .icon-close::before {
   background-image: url("../icons/icon-close.png"); }
 
-/* line 418, ../scss/_global.scss */
+/* line 468, ../scss/_global.scss */
 [class^="icon-line"] {
   background-color: #ea9f3e;
   height: 5px;
@@ -489,7 +528,7 @@ input, select {
   transition: transform 0.5s; }
 
 /* Fading animation */
-/* line 430, ../scss/_global.scss */
+/* line 480, ../scss/_global.scss */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -666,7 +705,7 @@ body {
   /* line 43, ../scss/_responsive.scss */
   .list .list-item:nth-child(2n+1) {
     clear: left; } }
-@media only screen and (max-width: 703px) {
+@media only screen and (max-width: 768px) {
   /* line 50, ../scss/_responsive.scss */
   .header-information .header-row,
   .main-content,
