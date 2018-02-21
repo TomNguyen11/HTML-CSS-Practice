@@ -28,6 +28,7 @@ function showSlides(n) {
       slides[i].style.display = "none";
   }
   slides[indexSlide-1].style.display = "block";
+  // setTimeout(plusSlides(1), 9000);
 }
 
 var myVar = setInterval(function(){ plusSlides(1) }, 3000);

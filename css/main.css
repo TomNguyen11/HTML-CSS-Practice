@@ -209,19 +209,18 @@ input, select {
       text-decoration: none;
       color: #af9671;
       background-color: #3c3218;
-      display: block;
-      font-weight: bold; }
-    /* line 127, ../scss/_global.scss */
+      display: block; }
+    /* line 126, ../scss/_global.scss */
     .sub-menu .sub-menu-item:hover > .sub-menu-item-link {
       color: #ea9f3e;
       background-color: #483e23; }
-  /* line 133, ../scss/_global.scss */
+  /* line 132, ../scss/_global.scss */
   .sub-menu .sub-menu {
     position: absolute;
     left: 100%;
     top: 0; }
 
-/* line 140, ../scss/_global.scss */
+/* line 139, ../scss/_global.scss */
 .collapse-menu-box {
   z-index: 1;
   width: 100%;
@@ -230,39 +229,40 @@ input, select {
   -webkit-transition: right 0.5s;
   transition: right 0.5s;
   right: -100%; }
-  /* line 149, ../scss/_global.scss */
+  /* line 148, ../scss/_global.scss */
   .collapse-menu-box .menu {
     list-style-type: none; }
-    /* line 152, ../scss/_global.scss */
+    /* line 151, ../scss/_global.scss */
     .collapse-menu-box .menu .menu-item {
       width: 100%;
       background-color: rgba(240, 235, 235, 0.9); }
-      /* line 156, ../scss/_global.scss */
+      /* line 155, ../scss/_global.scss */
       .collapse-menu-box .menu .menu-item:hover .menu-item-link:not(.active) {
         color: #ff9;
         background-color: #af9670;
         border-color: transparent; }
-      /* line 161, ../scss/_global.scss */
+      /* line 160, ../scss/_global.scss */
       .collapse-menu-box .menu .menu-item:hover > .sub-menu {
         display: inline-block; }
-      /* line 166, ../scss/_global.scss */
+      /* line 165, ../scss/_global.scss */
       .collapse-menu-box .menu .menu-item .menu-item-link {
         text-align: center;
         display: block;
         font-weight: bold; }
-        /* line 170, ../scss/_global.scss */
+        /* line 169, ../scss/_global.scss */
         .collapse-menu-box .menu .menu-item .menu-item-link:not(.active) {
           color: #211c0f; }
-        /* line 173, ../scss/_global.scss */
+        /* line 172, ../scss/_global.scss */
         .collapse-menu-box .menu .menu-item .menu-item-link.active {
           color: #c95c10; }
-    /* line 179, ../scss/_global.scss */
+    /* line 178, ../scss/_global.scss */
     .collapse-menu-box .menu .sub-menu {
       width: 100%; }
-      /* line 182, ../scss/_global.scss */
+      /* line 181, ../scss/_global.scss */
       .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu-item-link {
         padding-left: 40px;
-        background-color: #4f4326; }
+        background-color: #4f4326;
+        font-weight: bold; }
         /* line 185, ../scss/_global.scss */
         .collapse-menu-box .menu .sub-menu .sub-menu-item .sub-menu-item-link:hover {
           background-color: #483e23; }
@@ -288,7 +288,7 @@ input, select {
 /* line 218, ../scss/_global.scss */
 .banner {
   background-color: rgba(61, 126, 211, 0.8);
-  height: 400px;
+  height: 450px;
   position: relative;
   border: 1px groove;
   padding: 0;
@@ -394,17 +394,21 @@ input, select {
     text-decoration: underline; }
 
 /* line 336, ../scss/_global.scss */
+.time {
+  color: #f5f5f5; }
+
+/* line 340, ../scss/_global.scss */
 .image {
   width: 100%;
   height: auto; }
 
-/* line 341, ../scss/_global.scss */
+/* line 345, ../scss/_global.scss */
 .list {
   list-style-type: none; }
-  /* line 345, ../scss/_global.scss */
+  /* line 349, ../scss/_global.scss */
   .list .list-item .item-container {
     width: 100%; }
-    /* line 348, ../scss/_global.scss */
+    /* line 352, ../scss/_global.scss */
     .list .list-item .item-container .item-image-box {
       padding: 5px;
       border: 2px solid #3c3218;
@@ -412,47 +416,47 @@ input, select {
       transition: border 0.5s;
       width: 100%;
       height: 250px; }
-      /* line 355, ../scss/_global.scss */
+      /* line 359, ../scss/_global.scss */
       .list .list-item .item-container .item-image-box:hover {
         border: 2px solid #856f3a; }
-    /* line 360, ../scss/_global.scss */
+    /* line 364, ../scss/_global.scss */
     .list .list-item .item-container .item-image-content {
       background-size: cover;
       background-position: center;
       width: 100%;
       height: 100%; }
-    /* line 367, ../scss/_global.scss */
+    /* line 371, ../scss/_global.scss */
     .list .list-item .item-container .item-image {
       text-decoration: none;
       display: block;
       width: 100%;
       height: 100%; }
 
-/* line 377, ../scss/_global.scss */
+/* line 381, ../scss/_global.scss */
 .title-link {
   text-decoration: none;
   color: #af9671; }
-  /* line 380, ../scss/_global.scss */
+  /* line 384, ../scss/_global.scss */
   .title-link:hover {
     color: #f1ea40; }
 
-/* line 387, ../scss/_global.scss */
+/* line 391, ../scss/_global.scss */
 .social-network-list .social-network-item .social-network-link {
   display: inline-block;
   text-decoration: none;
   color: #af9671;
   padding: 10px 0; }
-  /* line 392, ../scss/_global.scss */
+  /* line 396, ../scss/_global.scss */
   .social-network-list .social-network-item .social-network-link:hover {
     color: #f1ea40; }
 
-/* line 399, ../scss/_global.scss */
+/* line 403, ../scss/_global.scss */
 .internal-link {
   width: 100px;
   clear: left;
   padding: 0 15px; }
 
-/* line 405, ../scss/_global.scss */
+/* line 409, ../scss/_global.scss */
 .return-to-top {
   display: block;
   text-decoration: none;
@@ -461,63 +465,63 @@ input, select {
   -webkit-transition: color 1s;
   /* For Safari 3.1 to 6.0 */
   transition: color 1s; }
-  /* line 412, ../scss/_global.scss */
+  /* line 416, ../scss/_global.scss */
   .return-to-top:hover {
     color: #f1ea40; }
 
 /* footer */
-/* line 418, ../scss/_global.scss */
+/* line 422, ../scss/_global.scss */
 .footer-information {
   width: 100%;
   padding: 40px 10%;
   background-color: #201b0e; }
-  /* line 422, ../scss/_global.scss */
+  /* line 426, ../scss/_global.scss */
   .footer-information .copyright {
     color: #cfcdb4;
     padding: 0 15px; }
 
-/* line 428, ../scss/_global.scss */
+/* line 432, ../scss/_global.scss */
 [class*="icon-"] {
   display: inline-block;
   background-position: center;
   width: 32px;
   height: 32px; }
 
-/* line 435, ../scss/_global.scss */
+/* line 439, ../scss/_global.scss */
 .icon-left {
   margin-right: 10px;
   vertical-align: middle;
   display: inline-block; }
 
-/* line 441, ../scss/_global.scss */
+/* line 445, ../scss/_global.scss */
 .icon-services {
   background-image: url("../icons/icon-painter.png"); }
 
-/* line 445, ../scss/_global.scss */
+/* line 449, ../scss/_global.scss */
 .icon-tweets {
   background-image: url("../icons/icon-tweets.png"); }
 
-/* line 449, ../scss/_global.scss */
+/* line 453, ../scss/_global.scss */
 .icon-contact {
   background-image: url("../icons/email.png"); }
 
-/* line 453, ../scss/_global.scss */
+/* line 457, ../scss/_global.scss */
 .icon-delicious {
   background-image: url("../icons/icon-delicious.png"); }
 
-/* line 457, ../scss/_global.scss */
+/* line 461, ../scss/_global.scss */
 .icon-flickr {
   background-image: url("../icons/icon-flickr.png"); }
 
-/* line 461, ../scss/_global.scss */
+/* line 465, ../scss/_global.scss */
 .icon-menu {
   background-image: url("../icons/icon-menu.png"); }
 
-/* line 465, ../scss/_global.scss */
+/* line 469, ../scss/_global.scss */
 .icon-close::before {
   background-image: url("../icons/icon-close.png"); }
 
-/* line 469, ../scss/_global.scss */
+/* line 473, ../scss/_global.scss */
 [class^="icon-line"] {
   background-color: #ea9f3e;
   height: 5px;
@@ -529,12 +533,10 @@ input, select {
   transition: transform 0.5s; }
 
 /* Fading animation */
-/* line 481, ../scss/_global.scss */
+/* line 485, ../scss/_global.scss */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s; }
+  -webkit-animation: fade 5s infinite;
+  animation: fade 5s infinite; }
 
 @-webkit-keyframes fade {
   from {
@@ -637,6 +639,15 @@ body {
     /* line 99, ../scss/_home.scss */
     .information-section .title-link:hover {
       color: #d7d01d; }
+
+/* line 1, ../scss/_detail.scss */
+.detail-box {
+  padding: 15px; }
+  /* line 4, ../scss/_detail.scss */
+  .detail-box .detail-image .description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal; }
 
 @media only screen and (max-width: 414px) {
   /* line 4, ../scss/_responsive.scss */
