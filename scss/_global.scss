@@ -81,16 +81,18 @@
       text-decoration: none;
       display: inline-block;
       padding: 8px 12px;
-      color: #af9671;
       border: 1px solid transparent;
       -webkit-transition: 0.5s;
       transition: 0.5s;
       box-shadow: 0 0 3px 3px rgba(0,0,0,0);
+      &:not(.active) {
+        color: #af9671;
+      }
+      &.active {
+        color: #f1ea40;
+      }
     }
 
-    .active {
-      color: #f1ea40;
-    }
   }
 }
 
@@ -113,6 +115,7 @@
       }
     }
     .sub-menu-item-link {
+      text-align: center;
       padding: 10px 12px;
       text-decoration: none;
       color: #af9671;
@@ -148,16 +151,63 @@
     .menu-item {
       width: 100%;
       background-color: rgba(240, 235, 235, 0.9);
+      &:hover {
+        .menu-item-link:not(.active) {
+          color: #ff9;
+          background-color: #af9670;
+          border-color: transparent;
+        }
+        > .sub-menu {
+          display: inline-block;
+        }
+      }
 
       .menu-item-link {
         text-align: center;
         display: block;
-        color: #211c0f;
         font-weight: bold;
-        border: none;
-        &:hover {
-          color: #ff9;
-          background-color: #af9670;
+        &:not(.active) {
+          color: #211c0f;
+        }
+        &.active {
+          color: #c95c10;
+        }
+      }
+    }
+
+    .sub-menu {
+      width: 100%;
+      .sub-menu-item {
+        .sub-menu-item-link {
+          padding-left: 40px;
+          background-color: rgba(79,67,38,1);
+          &:hover {
+            background-color: #483e23;
+          }
+        }
+        .sub-menu {
+          top: 100%;
+          left: 0;
+          .sub-menu-item {
+            .sub-menu-item-link {
+              background-color: rgba(62,46,7,1);
+              padding-left: 70px;
+              &:hover {
+                background-color: #483e23;
+              }
+            }
+            .sub-menu {
+              .sub-menu-item {
+                .sub-menu-item-link {
+                  background-color: rgba(0,0,0,1);
+                  padding-left: 100px;
+                  &:hover {
+                    background-color: #483e23;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
