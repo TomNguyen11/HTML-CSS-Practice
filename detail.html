@@ -8,131 +8,249 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
 <body>
-  <div class="containers">
+  <div class="containers detail-container">
     <header class="header-information row" id="top">
-      <div class="header-row clearfix">
-        <nav class="navigation-content" id="navigation-top">
-          <ul class="menu clearfix">
-            <li class="menu-item">
-              <a href="#work" class="menu-item-link active">home</a>
-            </li>
-            <li class="menu-item">
-              <a href="#work" class="menu-item-link">work</a>
-            </li>
-            <li class="menu-item">
-              <a href="#service" class="menu-item-link">service</a>
-            </li>
-            <li class="menu-item">
-              <a href="#contact" class="menu-item-link">contact</a>
-              <ul class="sub-menu">
-                <li class="sub-menu-item">
-                  <a href="#contact" class="sub-menu-item-link">contact 01</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="#contact" class="sub-menu-item-link">contact 02</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="#contact" class="sub-menu-item-link">contact 03</a>
-                  <ul class="sub-menu">
-                    <li class="sub-menu-item">
-                      <a href="#contact" class="sub-menu-item-link">contact 03-01</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#contact" class="sub-menu-item-link">contact 03-02</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#contact" class="sub-menu-item-link">contact 03-03</a>
-                      <ul class="sub-menu">
-                        <li class="sub-menu-item">
-                          <a href="#contact" class="sub-menu-item-link">contact 03-03-01</a>
-                        </li>
-                        <li class="sub-menu-item">
-                          <a href="#contact" class="sub-menu-item-link">contact 03-03-02</a>
-                        </li>
-                        <li class="sub-menu-item">
-                          <a href="#contact" class="sub-menu-item-link">contact 03-03-03</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <div class="btn-menu-group" onclick="toggleMenu()">
-            <span class="icon-line-1"></span>
-            <span class="icon-line-2"></span>
-            <span class="icon-line-3"></span>
+        <div class="header-row clearfix">
+          <nav class="navigation-content" id="navigation-top">
+            <ul class="menu clearfix">
+              <li class="menu-item">
+                <a href="#work" class="menu-item-link active">home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#work" class="menu-item-link">work</a>
+              </li>
+              <li class="menu-item">
+                <a href="#service" class="menu-item-link">service</a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact" class="menu-item-link">contact</a>
+                <ul class="sub-menu">
+                  <li class="sub-menu-item">
+                    <a href="#contact" class="sub-menu-item-link">contact 01</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#contact" class="sub-menu-item-link">contact 02</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#contact" class="sub-menu-item-link">contact 03</a>
+                    <ul class="sub-menu">
+                      <li class="sub-menu-item">
+                        <a href="#contact" class="sub-menu-item-link">contact 03-01</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="#contact" class="sub-menu-item-link">contact 03-02</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="#contact" class="sub-menu-item-link">contact 03-03</a>
+                        <ul class="sub-menu">
+                          <li class="sub-menu-item">
+                            <a href="#contact" class="sub-menu-item-link">contact 03-03-01</a>
+                          </li>
+                          <li class="sub-menu-item">
+                            <a href="#contact" class="sub-menu-item-link">contact 03-03-02</a>
+                          </li>
+                          <li class="sub-menu-item">
+                            <a href="#contact" class="sub-menu-item-link">contact 03-03-03</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="btn-menu-group" onclick="toggleMenu()">
+              <span class="icon-line-1"></span>
+              <span class="icon-line-2"></span>
+              <span class="icon-line-3"></span>
+            </div>
+          </nav>
+          <div class="collapse-menu-box">
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#work" class="menu-item-link active">home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#work" class="menu-item-link">work</a>
+              </li>
+              <li class="menu-item">
+                <a href="#service" class="menu-item-link">service</a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact" class="menu-item-link">contact</a>
+                <ul class="sub-menu">
+                  <li class="sub-menu-item">
+                    <a href="#contact" class="sub-menu-item-link">contact 01</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#contact" class="sub-menu-item-link">contact 02</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#contact" class="sub-menu-item-link">contact 03</a>
+                    <ul class="sub-menu">
+                      <li class="sub-menu-item">
+                        <a href="#contact" class="sub-menu-item-link">contact 03-01</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="#contact" class="sub-menu-item-link">contact 03-02</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="#contact" class="sub-menu-item-link">contact 03-03</a>
+                        <ul class="sub-menu">
+                          <li class="sub-menu-item">
+                            <a href="#contact" class="sub-menu-item-link">contact 03-03-01</a>
+                          </li>
+                          <li class="sub-menu-item">
+                            <a href="#contact" class="sub-menu-item-link">contact 03-03-02</a>
+                          </li>
+                          <li class="sub-menu-item">
+                            <a href="#contact" class="sub-menu-item-link">contact 03-03-03</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
-        </nav>
-        <div class="collapse-menu-box">
-          <ul class="menu">
-            <li class="menu-item">
-              <a href="#work" class="menu-item-link active">home</a>
-            </li>
-            <li class="menu-item">
-              <a href="#work" class="menu-item-link">work</a>
-            </li>
-            <li class="menu-item">
-              <a href="#service" class="menu-item-link">service</a>
-            </li>
-            <li class="menu-item">
-              <a href="#contact" class="menu-item-link">contact</a>
-              <ul class="sub-menu">
-                <li class="sub-menu-item">
-                  <a href="#contact" class="sub-menu-item-link">contact 01</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="#contact" class="sub-menu-item-link">contact 02</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="#contact" class="sub-menu-item-link">contact 03</a>
-                  <ul class="sub-menu">
-                    <li class="sub-menu-item">
-                      <a href="#contact" class="sub-menu-item-link">contact 03-01</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#contact" class="sub-menu-item-link">contact 03-02</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#contact" class="sub-menu-item-link">contact 03-03</a>
-                      <ul class="sub-menu">
-                        <li class="sub-menu-item">
-                          <a href="#contact" class="sub-menu-item-link">contact 03-03-01</a>
-                        </li>
-                        <li class="sub-menu-item">
-                          <a href="#contact" class="sub-menu-item-link">contact 03-03-02</a>
-                        </li>
-                        <li class="sub-menu-item">
-                          <a href="#contact" class="sub-menu-item-link">contact 03-03-03</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          <div class="logo-information">
+            <h1 class="logo">
+              <a href="#" class="logo-link">STEVEN SNELL</a>
+            </h1>
+            <p class="slogan">
+              <a href="#" class="title-link">web &amp; graphic design portfolio</a>
+            </p>
+          </div>
         </div>
-        <div class="logo-information">
-          <h1 class="logo">
-            <a href="#" class="logo-link">STEVEN SNELL</a>
-          </h1>
-          <p class="slogan">
-            <a href="#" class="title-link">web &amp; graphic design portfolio</a>
-          </p>
+        <div class="banner">
+          <div class="slides-box fade" style="background-image: url('./images/banner07.png');">
+            <div class="slide-content">
+              <h2 class="slide-heading">Title banner</h2>
+              <p class="slide-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Qui adipisci modi aperiam pariatur dignissimos commodi
+                reiciendis magni vero eaque autem exercitationem dolorum
+                ducimus deleniti, provident corporis rem quas suscipit veniam.
+              </p>
+              <div class="slide-link-box">
+                <a href="#" class="slide-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-box fade" style="background-image: url('./images/banner08.png');">
+            <div class="slide-content">
+              <h2 class="slide-heading">Title banner</h2>
+              <p class="slide-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Qui adipisci modi aperiam pariatur dignissimos commodi
+                reiciendis magni vero eaque autem exercitationem dolorum
+                ducimus deleniti, provident corporis rem quas suscipit veniam.
+              </p>
+              <div class="slide-link-box">
+                <a href="#" class="slide-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-box fade" style="background-image: url('./images/banner09.png');">
+            <div class="slide-content">
+              <h2 class="slide-heading">Title banner</h2>
+              <p class="slide-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Qui adipisci modi aperiam pariatur dignissimos commodi
+                reiciendis magni vero eaque autem exercitationem dolorum
+                ducimus deleniti, provident corporis rem quas suscipit veniam.
+              </p>
+              <div class="slide-link-box">
+                <a href="#" class="slide-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-box fade" style="background-image: url('./images/banner10.png');">
+            <div class="slide-content">
+              <h2 class="slide-heading">Title banner</h2>
+              <p class="slide-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Qui adipisci modi aperiam pariatur dignissimos commodi
+                reiciendis magni vero eaque autem exercitationem dolorum
+                ducimus deleniti, provident corporis rem quas suscipit veniam.
+              </p>
+              <div class="slide-link-box">
+                <a href="#" class="slide-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-box fade" style="background-image: url('./images/banner11.png');">
+            <div class="slide-content">
+              <h2 class="slide-heading">Title banner</h2>
+              <p class="slide-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Qui adipisci modi aperiam pariatur dignissimos commodi
+                reiciendis magni vero eaque autem exercitationem dolorum
+                ducimus deleniti, provident corporis rem quas suscipit veniam.
+              </p>
+              <div class="slide-link-box">
+                <a href="#" class="slide-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="banner-move-box">
+            <span class="prev-action" onclick="plusSlides(-1)">&#10094;</span>
+            <span class="next-action" onclick="plusSlides(1)">&#10095;</span>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
     <main class="main-content">
       <h2 class="heading-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-      <section class="detail-box">
-        <div class="detail-image">
-          <img src="./images/project01.png" alt="project 01" class="image">
-          <h4 class="description">Personal project from October, 2009</h4>
+      <section class="detail-box row">
+        <div class="detail-image col-8">
+          <div class="image-backrgound" style="background-image: url('./images/project03.png');"></div>
+          <h4 class="description">Personal project from October, 2009 - Home page</h4>
         </div>
-        <div class="detail-content">
-          <p class="time">October 4th, 2009</p>
+        <div class="detail-information col-4">
+          <div class="detail-information-content clearfix">
+            <h3 class="heading-2">Home page website</h3>
+            <ul class="list">
+              <li class="list-item">
+                <span class="icon-tick icon-left"></span>Lorem ipsum dolor, sit amet
+              </li>
+              <li class="list-item">
+                <span class="icon-tick icon-left"></span>Lorem ipsum dolor, sit amet
+              </li>
+              <li class="list-item">
+                <span class="icon-tick icon-left"></span>Lorem ipsum dolor, sit amet
+              </li>
+              <li class="list-item">
+                <span class="icon-tick icon-left"></span>Lorem ipsum dolor, sit amet
+              </li>
+              <li class="list-item">
+                <span class="icon-tick icon-left"></span>Lorem ipsum dolor, sit amet
+              </li>
+              <li class="list-item">
+                <span class="icon-tick icon-left"></span>Lorem ipsum dolor, sit amet
+              </li>
+            </ul>
+            <div class="detail-contact">
+              <div class="box-information">
+                <span class="name">Created:</span>
+                <span class="text">September 1th, 2009</span>
+              </div>
+              <div class="box-information">
+                <span class="name">Last Update:</span>
+                <span class="text">October 4th, 2009</span>
+              </div>
+              <form action="" class="form-group">
+                <h3 class="heading-3">Your email</h3>
+                <div class="input-group">
+                  <input type="email" name="email" class="input-text">
+                  <input type="submit" class="input-submit">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="detail-description col-12">
+          <h3 class="heading-3">Description</h3>
           <p class="description">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Animi soluta quis id consequatur vero, quasi perspiciatis,
@@ -172,15 +290,13 @@
         </div>
       </section>
       <section class="relative-box">
-        <h3 class="heading-2">Relative project</h3>
+        <h3 class="heading-2">Relative projects</h3>
         <ul class="list products-list row">
           <li class="list-item col-4 col-m-6">
             <div class="item-container">
               <div class="item-image-box">
                 <div class="item-image-content" style="background-image: url(./images/project04.png);">
-                  <a href="#" class="item-image">
-                    <!-- <img src="./images/PMO.png" class="image" alt="image"/> -->
-                  </a>
+                  <a href="#" class="item-image"></a>
                 </div>
               </div>
               <section class="item-content">
@@ -200,9 +316,7 @@
             <div class="item-container">
               <div class="item-image-box">
                 <div class="item-image-content" style="background-image: url(./images/project03.png);">
-                  <a href="#" class="item-image">
-                    <!-- <img src="./images/PMO.png" class="image" alt="image"/> -->
-                  </a>
+                  <a href="#" class="item-image"></a>
                 </div>
               </div>
               <section class="item-content">
@@ -220,9 +334,7 @@
             <div class="item-container">
               <div class="item-image-box">
                 <div class="item-image-content" style="background-image: url(./images/project04.png);">
-                  <a href="#" class="item-image">
-                    <!-- <img src="./images/PMO.png" class="image" alt="image"/> -->
-                  </a>
+                  <a href="#" class="item-image"></a>
                 </div>
               </div>
               <section class="item-content">
