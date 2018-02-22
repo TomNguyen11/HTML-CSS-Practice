@@ -224,6 +224,7 @@
   width: 100%;
 
   .slides-box {
+    transition: opacity .5s linear;
     display: none;
     background-position: center;
     background-repeat: no-repeat;
