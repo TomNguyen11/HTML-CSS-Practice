@@ -22,12 +22,16 @@ function plusSlides(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slides-box");
+  if (slides.length === 0) {
+    return;
+  }
   if (n > slides.length) {indexSlide = 1}
   if (n < 1) {indexSlide = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
   slides[indexSlide-1].style.display = "block";
+  // setTimeout(plusSlides(1), 9000);
 }
 
 var myVar = setInterval(function(){ plusSlides(1) }, 3000);

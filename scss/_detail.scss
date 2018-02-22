@@ -1,0 +1,38 @@
+.detail-container {
+  .header-information {
+    padding-bottom: 2px;
+  }
+  .detail-box {
+    .detail-image {
+      height: 500px;
+      .image-backrgound {
+        height: calc(100% - 45px);
+      }
+      .description {
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+        margin-top: 5px;
+      }
+    }
+
+    .detail-information {
+      .detail-information-content {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 3px 4px 5px rgba(240, 235, 235, 0.9);
+        padding: 10px 5%;
+
+        .heading-2 {
+          text-align: center;
+          text-transform: none;
+        }
+
+        .list {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
