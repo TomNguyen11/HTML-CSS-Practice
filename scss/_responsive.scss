@@ -130,6 +130,13 @@
       clear: left;
     }
   }
+
+  // detail page
+  .detail-container {
+    .detail-information {
+      height: 500px !important;
+    }
+  }
 }
 
 @media only screen and (max-width: 1024px) {
